@@ -1,0 +1,6 @@
+FUENTES PREPARADAS PARA GITHUB
+El punto de entrada es index.html. Lee README.md antes de publicar.
+Para uso local completo copia documentos/ desde el paquete original.
+Para GitHub Pages carga los 17 documentos como assets de la release documentos-v1.
+La biblioteca no estará completa en línea hasta que existan esos archivos y sean accesibles.
+Esta entrega no ha subido archivos ni cambiado la privacidad de tu repositorio.

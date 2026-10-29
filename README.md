@@ -1,38 +1,27 @@
-# Observatorio Ambiental
+# Observatorio Ambiental — versión final para revisión
 
-Prototipo ciudadano de Comuna 22 y La Buitrera, desarrollado con HTML, CSS y JavaScript puro.
+Versión 1.0-rc1 · 29 de octubre de 2026. Consulta ciudadana de Comuna 22 y La Buitrera.
 
-## Edición en VS Code
-Abrir esta carpeta, con index.html en la raíz. No requiere npm install ni compilación.
+## Abrir localmente
 
-Para la consulta local completa, copiar la carpeta documentos/ del ZIP original a esta carpeta.
-Está excluida de Git mediante .gitignore. Se conservan las imágenes y los mapas en assets/.
+Descomprime el ZIP en una carpeta nueva. Abre `observatorio-ambiental/index.html` en Chrome o Edge. También funciona servido con Live Server. No requiere instalación, compilación ni cuenta. Abrirlo no publica los cambios.
 
-## Publicación
-1. Subir el contenido de esta carpeta a la raíz del repositorio.
-2. Crear una release con el tag exacto documentos-v1 y adjuntar los 17 archivos que están dentro
-   de documentos/ del proyecto completo, con sus nombres originales. No adjuntar solamente el ZIP.
-3. Comprobar nombres y tamaños con documentos_manifest.json.
-4. Para una publicación pública, revisar y autorizar la divulgación del código y de esos soportes.
-   Mientras el repositorio sea privado, sus documentos de release también requieren acceso.
-5. Cuando la visibilidad y el plan permitan usar Pages, seleccionar Settings > Pages,
-   publicación desde la rama main y la carpeta / (root).
-6. Comprobar el estado de publicación y la URL real que devuelva GitHub.
+El visor, su biblioteca y el fondo geográfico están incluidos localmente; no solicitan teselas a OpenStreetMap. Los 17 documentos grandes se consultan desde la release pública `documentos-v1` ya existente y requieren Internet. No están repetidos en este ZIP. Se verificó respuesta HTTP 200 en los 17 enlaces el 29/10/2026. Su apertura como PDF o descarga depende del navegador y del servidor.
 
-documentos-config.js usa documentos/ al ejecutar localmente y una release documentos-v1
-al ejecutar bajo willarboleda-rgb.github.io. Si cambia el propietario o repositorio, actualizar
-esa configuración. En otros dominios, ajustar la base documental antes de publicar.
+Para disponer de los documentos sin Internet, copia la carpeta `documentos/` del paquete completo original y cambia `documentBase` a `'documentos/'` en `documentos-config.js`.
 
-Las URLs de release están PRECONFIGURADAS: no se ha comprobado que los archivos estén subidos.
-GitHub suele descargar los archivos adjuntos de una release; el botón Abrir puede iniciar una
-descarga en vez de mostrar el PDF dentro del navegador. Los enlaces #page=N dependen del visor.
+## Qué revisar
 
-## Alcance
-Consulta sin registro. Notas personales en localStorage, sin envío a entidades ni radicados.
-No hay backend, base de datos central ni conexión operativa con CEMUA o IDESC.
-La cartografía es un atlas de imágenes. La interfaz no incluye panel administrativo.
+Lee `MANUAL_USUARIO.md` para recorrer las pantallas y `INFORME_REVISION.md` para conocer lo comprobado y lo pendiente. `CAMBIOS.md` resume esta entrega.
 
-## Entrega de fuentes
-Este repositorio versiona el código, las imágenes, los mapas y el manifiesto de documentos.
-Los documentos grandes se distribuyen como archivos de release y se conservan en el paquete
-original. Para entregar una copia completa sin conexión, incluir nuevamente documentos/.
+## Publicación en el repositorio existente
+
+Este paquete NO está publicado. Cuando se apruebe: subir el contenido de `observatorio-ambiental/` a la raíz de `willarboleda-rgb/observatorio-ambiental`, conservando `assets/`, `vendor/` y la release documental existente. No subir solo el ZIP ni crear una carpeta exterior adicional en GitHub. GitHub Pages mantiene `main` y `/ (root)`. Conservar los 17 adjuntos de `documentos-v1`.
+
+No es necesario subir los paquetes anteriores ni sus archivos LEEME históricos. Los archivos antiguos `mapa-demo.js` y `mapa-demo-data.js` no son cargados por esta versión.
+
+## Tecnología y alcance
+
+HTML, CSS y JavaScript, sin backend ni base de datos central. Leaflet 1.9.4 se incluye en `vendor/leaflet` con su licencia. Notas y preferencias de accesibilidad usan almacenamiento local del navegador. No se envían reportes a entidades, no se generan radicados y no hay conexión operativa con sensores, CEMUA o IDESC.
+
+Los datos documentales conservan periodos y fuentes. La Buitrera presenta fichas formuladas sin serie cargada. No se declara certificación de accesibilidad ni puesta en producción institucional.

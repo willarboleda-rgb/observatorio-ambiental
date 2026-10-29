@@ -1,0 +1,87 @@
+[
+  {
+    "archivo": "documentos/1-informe-final-corregimiento-la-buitrera.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/1-2-anexo-indicadores-buitrera.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/1-3-proyeccion-economica-sostenibilidad-la-buitrera.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/1-3-proyeccion-economica-sostenibilidad-la-buitrera.xlsx",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/2-informe-ejecutivo-buitrera.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/3-como-formular-un-oa-cartilla-oab.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/anexo-12-compilado-flora-registradas-comuna-22.xlsx",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/anexo-13-compilado-aves-registradas-comuna-22.xlsx",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/guia-comunitaria-para-identificacion-de-aves.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/resultados-de-indicaores-de-biodiversidad.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/1-informe-final-observartorio-comuna-22.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/2-informe-ejecutivo-comuna-22.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/presentacion-final-oac22.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/resultado-de-componente-ep.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/resultado-de-componente-ot.pdf",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/cartografia-comuna22.gdb.zip",
+    "status": 200,
+    "ok": true
+  },
+  {
+    "archivo": "documentos/biotico-comuna22.gdb.zip",
+    "status": 200,
+    "ok": true
+  }
+]

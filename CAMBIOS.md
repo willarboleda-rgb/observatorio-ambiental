@@ -1,11 +1,16 @@
-# Cambios finales para revisión
+# Visual de ciudad · 10/11/2026
 
-- Portada antes de la selección temática.
-- Paneles comunes con información propia de cada territorio.
-- Menú agrupado, rutas de retorno y documentación por categorías.
-- Mapa documental con base local, filtros y descargas en el visor y atlas en vista separada.
-- Corrección del estilo SVG, enlaces internos y persistencia del territorio en las rutas.
-- Biblioteca Leaflet incluida localmente y documentos remotos verificados.
-- Manual e instrucciones unificados; se excluyen notas históricas y código de simulación.
+Se añade Santiago de Cali como portada inicial; se conserva el selector y el menú lateral de los observatorios locales. Cali en cifras ambientales antecede a los temas Recurso hídrico, Aire y Ruido. Se incorpora seguimiento IVC demostrativo con filtros y descarga de agregados. Los contenidos documentados de Comuna 22 y La Buitrera conservan su ámbito. No se publica esta propuesta automáticamente.
 
-No hay cifras inventadas ni publicación automática en esta entrega.
+## Ajustes de la usuaria
+
+- Misma fotografía del pájaro en la portada de ciudad.
+- Orden: seguimiento hídrico, cifras ambientales, temas y observatorios locales.
+- Se elimina la tarjeta Puntos de vertimiento del resumen.
+- Se conservan el menú y el selector de ámbitos superior.
+
+- Se retira la franja general de cifras demostrativas de la portada; se conservan las etiquetas de ejemplo en tarjetas y exportaciones.
+
+- Se incorporan los PDF de Aire y Ruido, seis fichas documentales, guía ICA y referencias históricas de ruido con fuentes y exportación.
+
+- La portada reúne el resumen IVC y las cuatro tarjetas de cifras dentro de un único bloque Cali en cifras ambientales. El título Seguimiento al recurso hídrico se conserva únicamente dentro del tema específico de agua.

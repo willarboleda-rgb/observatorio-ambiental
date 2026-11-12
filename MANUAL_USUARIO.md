@@ -1,4 +1,8 @@
-# Manual de uso — Observatorio Ambiental
+# Guía de la visual de ciudad
+
+Abre index.html: Santiago de Cali es la portada. Usa el selector superior para cambiar a Comuna 22 o La Buitrera; el logotipo vuelve a la ciudad. Cali en cifras aparece antes de Recurso hídrico, Aire y Ruido. Las visitas IVC se consultan como categorías agregadas y sus exportaciones están marcadas como demostrativas. El menú lateral se conserva.
+
+# Manual de las secciones territoriales
 
 Versión 1.0-rc1 · 29/10/2026 · entrega para revisión.
 

@@ -1,6 +1,6 @@
-VERIFICACIÓN PROGRAMÁTICA · 20 de octubre de 2026
+VERIFICACIÓN PROGRAMÁTICA · 10 de noviembre de 2026
 
-CORRECTO · 14 pantallas: siete secciones en ambos territorios
+CORRECTO · 20 pantallas: diez secciones en ambos territorios
 CORRECTO · Siete resultados de Comuna 22 y sus siete fichas
 CORRECTO · 111 fichas de La Buitrera, diez componentes y páginas válidas
 CORRECTO · Filtros por búsqueda, tema y tipo PER; estado vacío
@@ -11,8 +11,17 @@ CORRECTO · Biblioteca filtrada por territorio y por formato
 CORRECTO · Biodiversidad: 212 registros de aves y 77 nombres distintos
 CORRECTO · Cuaderno: separación por territorio y texto escapado
 CORRECTO · Todos los documentos y mapas existen; rutas locales sin enlaces rotos
-CORRECTO · Sin módulo interno ni dependencias externas de ejecución
+CORRECTO · Sin módulo interno; dependencia cartográfica explícita
+CORRECTO · Descargas: filtros, cortes temporales, vacíos y contexto territorial
+CORRECTO · Paneles temáticos: tres temas en Comuna 22 y diez en La Buitrera; contexto y filtros conectados
+CORRECTO · Vistas cartográficas separadas: interactivo inicial y enlaces al atlas
+CORRECTO · Navegación agrupada, ruta de retorno y documentación por secciones en ambos territorios
+CORRECTO · Territorio explícito en rutas compartidas y selector sincronizado
+CORRECTO · Portada de ciudad: cifras antes de temas, acceso territorial superior y avisos demostrativos
+CORRECTO · Once rutas ciudadanas de ciudad sin atribuir mediciones reales no validadas
+CORRECTO · IVC: filtros de categorías agregadas, total consistente, vacíos y limpieza
+CORRECTO · Cambio de ámbito conserva conjuntos locales: siete indicadores y 111 fichas
+CORRECTO · Documentación de Aire y Ruido: seis fichas, cuatro referencias históricas y fuentes disponibles
+CORRECTO · Mapa de Cali: 22 comunas, 15 corregimientos y filtros del escenario
 
 Alcance: ejecución de la lógica JavaScript con DOM simulado, integridad de rutas y datos. No constituye verificación visual ni una prueba de navegador real. La vista local fue bloqueada por restricciones del entorno.
-
-Integridad: 15 archivos PDF y Excel con SHA-256 idéntico a los originales.

@@ -8,7 +8,7 @@ Descomprime el paquete en una carpeta nueva y abre `observatorio-ambiental/index
 
 ## Orden de la portada
 
-Portada con la misma fotografía del pájaro → Cali en cifras ambientales (resumen IVC y cuatro tarjetas de cifras) → Recurso hídrico, Aire y Ruido → accesos a los observatorios locales.
+Portada con la misma fotografía del pájaro → Cali en cifras ambientales (resumen IVC y cuatro tarjetas de cifras) → Recurso hídrico, Aire y Ruido → accesos a los observatorios comunitarios.
 
 La tarjeta Puntos de vertimiento se retira del resumen de seguimiento y las tres tarjetas restantes se redistribuyen. El menú lateral conserva su estructura; Visitas IVC se añade en el ámbito de Cali. Las tarjetas locales complementan el acceso del selector superior. Cada enlace conserva su ámbito.
 
@@ -53,3 +53,6 @@ Filtros: zona urbana/rural, comuna o corregimiento, componente, indicador, segui
 Los puntos del escenario son independientes de los contadores agregados de la portada. No se calcula cumplimiento normativo ni ICA con ellos. El mapa de Comuna 22 y la información de La Buitrera se conservan.
 
 Validación adicional: filtros y rangos vacíos; 66 puntos urbanos y 15 rurales; exportaciones filtradas en tres formatos. La revisión visual en un navegador real sigue pendiente. Este paquete no se ha publicado.
+
+
+Actualización 13/11/2026: bienvenida de Santiago de Cali con banner verde y texto blanco, sin fotografía. Se adopta la denominación observatorios comunitarios. No se modifican las portadas territoriales ni sus imágenes documentales.

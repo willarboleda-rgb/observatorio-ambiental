@@ -1,6 +1,6 @@
 # Aire y Ruido incorporados — 10/11/2026
 
-Esta entrega conserva la portada con el pájaro, el orden de seguimiento hídrico / cifras / temas / observatorios locales, la tarjeta de vertimientos retirada del resumen y la portada sin franja general.
+Esta entrega conserva la portada con el pájaro, el orden de seguimiento hídrico / cifras / temas / observatorios comunitarios, la tarjeta de vertimientos retirada del resumen y la portada sin franja general.
 
 ## Incorporación documental
 
